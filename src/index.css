@@ -1,0 +1,54 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color:white;
+  margin-bottom: 15px;
+}
+
+.tablero {
+  border: 15px solid #ff652f;  
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 0.3rem;
+}
+
+.cuadrados {
+  background: #272727;
+  border: none;
+  font-size: 5rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.X {
+  color: blue;
+}
+.O {
+  color: white;
+}
+
+h3 {
+  padding: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+
